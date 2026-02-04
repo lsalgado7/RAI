@@ -2,7 +2,7 @@
 
 > **A multi-agent autonomous system for financial market research, powered by CrewAI and Google Gemini.**
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![CrewAI](https://img.shields.io/badge/Framework-CrewAI-orange)
 ![Gemini](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash%20Lite-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
