@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
 ## Overview
-The **Agentic Research Assistant** is an agentic AI workflow designed to act as an intelligent "Data Concierge" for researchers and students. Instead of manually scouring multiple repositories (Kaggle, HuggingFace, Zenodo), this system orchestrates a crew of specialized AI agents to autonomously find, validate, and summarize high-quality open-source datasets.
+The **Agentic Research Assistant** is an agentic AI workflow designed to act as an intelligent "Database Finder" for researchers and students. Instead of manually scouring multiple repositories (Kaggle, HuggingFace, Zenodo), this system orchestrates a crew of specialized AI agents to autonomously find, validate, and summarize high-quality open-source datasets.
 
 It features a **Dual-Pipeline Architecture** that simultaneously produces:
 1.  **Research Guide:** A human-readable markdown report summarizing the data landscape, recommending top picks, and warning of potential pitfalls.
