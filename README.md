@@ -49,8 +49,7 @@ graph LR
 
 ## Example
 
-<video src="https://github.com/lsalgado7/RAI/RAI_Example_Run.webm" autoplay loop muted inline width="100%">
-</video>
+![Agentic Research Assistant Demo](RAI_Example_Run.gif)
 
 **Input:**
 > "Brain MRI scans for Alzheimer's classification"
