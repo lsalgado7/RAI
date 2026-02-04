@@ -61,6 +61,23 @@ graph LR
 
 * **Local Files:** `data/metrics.json` (Catalog) and `reports/summary.md` (Report).
 
+# Planned Features & Roadmap!
+
+I am currently working on expanding the "Database Finder" role into a "Data Workbench" that automates the initial stages of the data science lifecycle:
+### One-Click Dataset Ingestion & EDA
+
+* **Interactive Selection:** Users will be able to select specific datasets from the generated results using Streamlit checkboxes.
+
+* **Automated Downloads:** Integrated handling of direct downloads for supported platforms (e.g., Kaggle, HuggingFace).
+
+* **Intelligent Pre-processing:**
+
+    * **Data Health Audit:** Automated detection of missing values, duplicate rows, and data type inconsistencies.
+
+    * **Automated EDA:** Generation of basic visualizations (histograms, correlation heatmaps) and column summaries.
+
+    * **Standardized Cleaning:** Initial handling of null values and basic feature scaling to prepare data for immediate machine learning use.
+
 ## 📂 Project Structure
 ```text
 .
