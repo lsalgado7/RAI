@@ -49,6 +49,9 @@ graph LR
 
 ## Example
 
+<video src="https://github.com/lsalgado7/RAI/RAI_Example_Run.webm" autoplay loop muted inline width="100%">
+</video>
+
 **Input:**
 > "Brain MRI scans for Alzheimer's classification"
 
@@ -57,16 +60,20 @@ graph LR
 
 * **Research Guide:** A "Best Practices" summary for using the found data.
 
-* **Local Files:** data/metrics.json (Catalog) and reports/summary.md (Report).
+* **Local Files:** `data/metrics.json` (Catalog) and `reports/summary.md` (Report).
 
 ## 📂 Project Structure
 ```text
 .
-├── main.py              # Core agent logic and orchestration
-├── data/                # Generated JSON datasets
-├── reports/             # Generated Markdown reports
-├── .env                 # API keys (Not uploaded to git)
-├── .gitignore           # Git exclusions
-├── requirements.txt     # Python dependencies
+├── app.py               # Streamlit UI & Application Entry Point
+├── src/
+│   ├── agents.py        # Agent Definitions (Scout, Specialist, Advisor)
+│   ├── tasks.py         # Task Logic & Descriptions
+│   ├── models.py        # Pydantic Schemas (DatasetEntry, DatasetReport)
+│   └── crew.py          # Crew Orchestration Logic
+├── data/                # Generated JSON catalogs
+├── reports/             # Generated Markdown guides
+├── .env                 # API keys (Ignored by Git)
+├── requirements.txt     # Dependencies
 └── README.md            # Documentation
 ```
