@@ -49,7 +49,11 @@ graph LR
 
 ## Example
 
+I've created a demo GIF loop to show the entire process of using the app and it's features:
+
 ![Agentic Research Assistant Demo](RAI_Example_Run.gif)
+
+(The beginning of the loop takes a little bit before you see results, I didn't cut out the time it takes to generate the response.)
 
 **Input:**
 > "Brain MRI scans for Alzheimer's classification"
