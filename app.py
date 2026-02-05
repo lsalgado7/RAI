@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import os
 from dotenv import load_dotenv
-from src.crew import FinancialCrew
+from src.crew import ResearchCrew
 
 # --- 1. Environment Setup ---
 load_dotenv()
@@ -33,7 +33,7 @@ if st.button("🚀 Find Datasets"):
     
     # Run the Agent Crew
     with st.spinner('Scouting data repositories... (This may take 1-2 minutes)'):
-        crew = FinancialCrew(topic)
+        crew = ResearchCrew(topic)
         result = crew.run()
         
         st.success("Discovery Complete!")

@@ -3,7 +3,7 @@ from src.agents import ResearchAgents
 from src.tasks import ResearchTasks
 import os
 
-class FinancialCrew:
+class ResearchCrew:
     def __init__(self, topic):
         self.topic = topic
         
